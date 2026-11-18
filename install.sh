@@ -106,7 +106,7 @@ if [ "$OS" = "Darwin" ]; then
   <key>CFBundleIdentifier</key><string>io.github.thewander02.os-browser.launcher</string>
   <key>CFBundleExecutable</key><string>Browser</string>
   <key>CFBundlePackageType</key><string>APPL</string>
-  <key>CFBundleVersion</key><string>1</key>
+  <key>CFBundleVersion</key><string>1</string>
 </dict></plist>
 EOF
   cat > "$app/Contents/MacOS/Browser" <<EOF
